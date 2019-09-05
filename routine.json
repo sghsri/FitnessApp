@@ -1,0 +1,251 @@
+{
+  "name": "Reddit Push Pull Legs",
+  "num_days": 6,
+  "rest_days": 1,
+  "workout_types": ["Pull", "Push", "Legs"],
+  "exercise_names": ["Deadlift", "Pulldown/Pullup/Chinup", "Chest Supported Rows/Seated Cable Row",
+    "Face Pull", "Hammer Curl", "Dumbbell Curl", "Bench Press", "Overhead Press",
+    "Incline Dumbbell Press", "Triceps Pushdown", "Overhead Tricep Extension",
+    "Lat Raise", "Squat", "Romanian Deadlift",
+    "Leg Press", "Leg Curl", "Calf Raise", "Barbell Row"
+  ],
+  "progression_type": "linear",
+  "progression": {
+    "per": "session_success",
+    "upload": {
+      "default": {
+        "weight": 5,
+        "unit": "lb"
+      },
+      "Deadlift": {
+        "weight": 10,
+        "unit": "lb"
+      },
+      "Romanian Deadlift": {
+        "weight": 10,
+        "unit": "lb"
+      }
+    },
+    "deload": {
+      "default": {
+        "percent": "10"
+      }
+    }
+  },
+  "workouts": [{
+      "type": "Pull",
+      "day": 1,
+      "exercises": {
+        "Deadlift": {
+          "sets": 1,
+          "reps": 5,
+          "amap": true,
+          "amap_sets": [1]
+        },
+        "Pulldown/Pullup/Chinup": {
+          "sets": 3,
+          "reps": 12,
+          "amap": false
+        },
+        "Chest Supported Rows/Seated Cable Row": {
+          "sets": 3,
+          "reps": 12,
+          "amap": false
+        },
+        "Face Pull": {
+          "sets": 5,
+          "reps": 20,
+          "amap": false
+        },
+        "Hammer Curl": {
+          "sets": 4,
+          "reps": 12,
+          "amap": false
+        },
+        "Dumbbell Curl": {
+          "sets": 4,
+          "reps": 12,
+          "amap": false
+        }
+      }
+    }, {
+      "type": "Push",
+      "day": 2,
+      "exercises": {
+        "Bench Press": {
+          "sets": 5,
+          "reps": 5,
+          "amap": true,
+          "amap_sets": [5]
+        },
+        "Overhead Press": {
+          "sets": 3,
+          "reps": 12,
+          "amap": false
+        },
+        "Incline Dumbbell Press": {
+          "sets": 3,
+          "reps": 12,
+          "amap": false
+        },
+        "Triceps Pushdown": {
+          "sets": 3,
+          "reps": 12,
+          "amap": false,
+          "SS": "Lat Raise"
+        },
+        "Overhead Tricep Extension": {
+          "sets": 3,
+          "reps": 12,
+          "amap": false,
+          "SS": "Lat Raise"
+        },
+        "Lat Raise": {
+          "sets": 3,
+          "reps": 20,
+          "amap": false
+        }
+      }
+    },
+    {
+      "type": "Legs",
+      "day": 3,
+      "exercises": {
+        "Squat": {
+          "sets": 3,
+          "reps": 5,
+          "amap": true,
+          "amap_sets": [3]
+        },
+        "Romanian Deadlift": {
+          "sets": 3,
+          "reps": 12,
+          "amap": false
+        },
+        "Leg Press": {
+          "sets": 3,
+          "reps": 12,
+          "amap": false
+        },
+        "Leg Curl": {
+          "sets": 3,
+          "reps": 12,
+          "amap": false
+        },
+        "Calf Raise": {
+          "sets": 5,
+          "reps": 12,
+          "amap": false
+        }
+      }
+    },
+    {
+      "type": "Pull",
+      "day": 4,
+      "exercises": {
+        "Barbell Row": {
+          "sets": 5,
+          "reps": 5,
+          "amap": true,
+          "amap_sets": [1]
+        },
+        "Pulldown/Pullup/Chinup": {
+          "sets": 3,
+          "reps": 12,
+          "amap": false
+        },
+        "Chest Supported Rows/Seated Cable Row": {
+          "sets": 3,
+          "reps": 12,
+          "amap": false
+        },
+        "Face Pull": {
+          "sets": 5,
+          "reps": 20,
+          "amap": false
+        },
+        "Hammer Curl": {
+          "sets": 4,
+          "reps": 12,
+          "amap": false
+        },
+        "Dumbbell Curl": {
+          "sets": 4,
+          "reps": 12,
+          "amap": false
+        }
+      }
+    },
+    {
+      "type": "Push",
+      "day": 5,
+      "exercises": {
+        "Overhead Press": {
+          "sets": 5,
+          "reps": 5,
+          "amap": true,
+          "amap_sets": [5]
+        },
+        "Bench Press": {
+          "sets": 3,
+          "reps": 12,
+          "amap": false
+        },
+        "Incline Dumbbell Press": {
+          "sets": 3,
+          "reps": 12,
+          "amap": false
+        },
+        "Triceps Pushdown": {
+          "sets": 3,
+          "reps": 12,
+          "amap": false,
+          "SS": "Lat Raise"
+        },
+        "Overhead Tricep Extension": {
+          "sets": 3,
+          "reps": 12,
+          "amap": false,
+          "SS": "Lat Raise"
+        },
+        "Lat Raise": {
+          "sets": 3,
+          "reps": 20,
+          "amap": false
+        }
+      }
+    },
+    {
+      "type": "Legs",
+      "day": 6,
+      "exercises": {
+        "Squat": {
+          "sets": 3,
+          "reps": 5,
+          "amap": true,
+          "amap_sets": [3]
+        },
+        "Romanian Deadlift": {
+          "sets": 3,
+          "reps": 12,
+          "amap": false
+        },
+        "Leg Press": {
+          "sets": 3,
+          "reps": 12,
+          "amap": false
+        },
+        "Leg Curl": {
+          "sets": 3,
+          "reps": 12,
+          "amap": false
+        },
+        "Calf Raise": {
+          "sets": 5,
+          "reps": 12,
+          "amap": false
+        }
+      }
+    }
+  ]
+}
